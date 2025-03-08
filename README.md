@@ -64,12 +64,12 @@ Once your VPS is ready, follow these steps to set it up for running a crypto nod
 
 Once you have your VPS credentials (IP address and root password), connect using SSH:  
 
-```sh
+```
 ssh root@your_server_ip
 ```
 
 For example, if your VPS IP is 192.168.1.100, you would run:
-```sh
+```
 ssh root@192.168.1.100
 ```
 ## 2. Update and Upgrade the System
@@ -80,7 +80,7 @@ apt update && apt upgrade -y
 ```
 ### Example Output:
 
-```sh
+```
 Reading package lists... Done
 Building dependency tree       
 Reading state information... Done
@@ -93,33 +93,33 @@ The following packages will be upgraded:
 ## 3. Create a New User
 It's not safe to use the root account for daily tasks. Create a new user with a custom name.
 
-```sh
+```
 adduser newuser
 
 ```
 Replace newuser with your desired username.
 
 ### Example Output:
-```sh
+```
 adduser tony
 ```
 
 Now, give this user sudo privileges:
 
-```sh
+```
 usermod -aG sudo newuser  # For replace newuser with your username above
 ```
 ## 4. Log in as the New User
 Once you've created your new user (tony in this example, also remember the password you used in creating the new user in case of Next time Log in), switch to the user using SSH
 
-```sh
+```
 ssh tony@your_server_ip #Check your mail/ log into your contabo account to get your server IP address
 
 ```
 
 If you're already logged into the VPS as root, switch to the new user:
 
-```sh
+```
 su - newuser
 
 ```

@@ -52,21 +52,13 @@ Review your order and complete the payment process. You’ll receive an email wi
 
 ---
 
-## 💻 How to Set Up Your VPS for Running a Crypto Node
+# 💻 How to Set Up Your VPS for Running a Crypto Node
 
 Once your VPS is ready, follow these steps to set it up for running a crypto node.
 
-### 1️⃣ **Access Your VPS via SSH**  
-After receiving your login credentials, SSH into your VPS:
 
-### 1️⃣ **Access Your VPS via SSH**  
-After receiving your login credentials, SSH into your VPS:
+***
 
-### 1️⃣ **Access Your VPS via SSH**  
-After receiving your login credentials, SSH into your VPS:
-
-
-# Setting Up a VPS: A Step-by-Step Guide  
 
 ## 1. Connect to Your VPS  
 

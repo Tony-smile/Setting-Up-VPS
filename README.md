@@ -107,13 +107,14 @@ adduser tony
 Now, give this user sudo privileges:
 
 ```
-usermod -aG sudo newuser  # For replace newuser with your username above
+usermod -aG sudo tony
 ```
 ## 4. Log in as the New User
 Once you've created your new user (tony in this example, also remember the password you used in creating the new user in case of Next time Log in), switch to the user using SSH
 
+### Check your mail/ log into your contabo account to get your server IP address
 ```
-ssh tony@your_server_ip #Check your mail/ log into your contabo account to get your server IP address
+ssh tony@your_server_ip 
 
 ```
 
